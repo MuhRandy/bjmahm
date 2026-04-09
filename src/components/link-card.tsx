@@ -29,6 +29,7 @@ export function LinkCard({ item }: LinkCardProps) {
       href={item.url}
       onClick={handleClick}
       className="block bg-white rounded-xl p-5 shadow-sm border border-gray-100 hover:shadow-md hover:border-secondary/30 transition-all duration-200 group"
+      target="_blank"
     >
       <div className="flex items-start gap-4">
         <div className="text-3xl group-hover:scale-110 transition-transform">
