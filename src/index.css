@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+@layer base {
+  body {
+    @apply bg-gray-50;
+  }
+}
+
+7. @theme {
+  --primary: "#2c3e2f";
+  --secondary: "#c9a87b";
+}
